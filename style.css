@@ -84,7 +84,7 @@ body {
 }
 
 .linha2{
-    margin-left: 85%;
+    margin-left: 82%;
     width: 18%;
     margin-bottom: 3%;
 }
@@ -172,10 +172,11 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: var(--color-title);
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
+    font-family: "Poppins";
 }
 
 /* Botão de sortear título */
