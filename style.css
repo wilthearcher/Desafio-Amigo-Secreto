@@ -1,11 +1,12 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #fde24b;
+    --color-secondary: #ffffff;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #fde24b;
+    --color-button-hover: #ffdf2b;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-title: #000000;
 }
 
 /* Estilos gerais */
@@ -37,6 +38,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    margin-top: -4%;
+    margin-bottom: 4%;
 }
 
 /* Seção de entrada */
@@ -50,22 +53,55 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
+    margin-top: -4%;
 }
 
+.container{
+    color: var(--color-white);
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    margin-top: -1px;
+    margin-left: -2%;
+    align-items: center;
+    align-content: center;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    border-style:dashed;
+    border-width: 2px;
+    border-color: var(--color-title);
+}
+
+.abelha{
+    width: 19%;
+    margin-left: 5%;
+}
+
+.linha{
+    margin-left: -10px;
+    width: 18%;
+}
+
+.linha2{
+    margin-left: 82%;
+    width: 18%;
+    margin-bottom: 3%;
+}
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: var(--color-title);
+    margin-left: 6%;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-title);
     margin: 10px 0;
     text-align: center;
 }
@@ -97,7 +133,7 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -136,10 +172,11 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: var(--color-title);
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
+    font-family: "Poppins";
 }
 
 /* Botão de sortear título */
@@ -148,7 +185,7 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: var(--color-title);
     background-color: var(--color-button);
     font-size: 16px;
 }
